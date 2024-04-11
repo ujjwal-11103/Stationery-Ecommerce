@@ -77,10 +77,10 @@ const Header = ({ sidebar, _sidebar, _sidebartype }) => {
                 className={panel == "shopall" ? "active" : ""}
               >
                 <Link onClick={closex} href={"/collections/shop-all"}>
-                  Shop All
+                  All stationery product
                 </Link>
               </li>
-              <li
+              {/* <li
                 onMouseEnter={() => setter("stationery")}
                 onMouseLeave={() => _panel(null)}
                 className={panel == "stationery" ? "active" : ""}
@@ -88,33 +88,33 @@ const Header = ({ sidebar, _sidebar, _sidebartype }) => {
                 <Link onClick={closex} href={"/collections/stationery"}>
                   School Stationery
                 </Link>
-              </li>
+              </li> */}
               <li
                 onMouseEnter={() => setter("supplies")}
                 onMouseLeave={() => _panel(null)}
                 className={panel == "supplies" ? "active" : ""}
               >
-                <Link onClick={closex} href={"/collections/supplies"}>
+                {/* <Link onClick={closex} href={"/collections/supplies"}>
                   Office Stationery
-                </Link>
+                </Link> */}
               </li>
               <li
                 onMouseEnter={() => setter("living")}
                 onMouseLeave={() => _panel(null)}
                 className={panel == "living" ? "active" : ""}
               >
-                <Link onClick={closex} href={"/collections/living"}>
+                {/* <Link onClick={closex} href={"/collections/living"}>
                   Art Stationery
-                </Link>
+                </Link> */}
               </li>
               <li
                 onMouseEnter={() => setter("accessories")}
                 onMouseLeave={() => _panel(null)}
                 className={panel == "accessories" ? "active" : ""}
               >
-                <Link onClick={closex} href={"/collections/accessories"}>
+                {/* <Link onClick={closex} href={"/collections/accessories"}>
                   Craft Stationery
-                </Link>
+                </Link> */}
               </li>
             </ul>
             <div
